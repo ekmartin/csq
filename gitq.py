@@ -1,11 +1,11 @@
 """gitq
 
 Usage:
-    gitq quote <name>
+    gitq quote
     gitq [--version]
 
 Arguments:
-  name              Name of person to quote
+  quote             A computer related quote
 
 Options:
   -h --help         Show help
@@ -17,16 +17,34 @@ import random
 import wikiquote
 import textwrap
 
+HUMANS = [
+    'Donald Knuth', 'Tim Berners-Lee', 'Alan Turing', 'Grace Hopper',
+    'Ada Lovelace', 'Ken Thompson', 'Niklaus Wirth', 'John von Neumann',
+    'Dennis Ritchie', 'Brian Kernighan', 'Edsger W. Dijkstra', 'Larry Wall',
+    'Linus Torvalds', 'John Backus', 'Richard Stallman', 'Bjarne Stroustrup',
+    'Douglas Crockford'
+]
+
+
+def format_quote(quote):
+    wrapped_quote = '\n'.join(textwrap.wrap(quote, 79))
+    wrapped_indented_quote = textwrap.indent(wrapped_quote, '   ')
+    return wrapped_indented_quote
+
+
+def print_quote(quote, person):
+    formatted_quote = format_quote(quote)
+    print(formatted_quote, person.rjust(79), sep='\n\n')
+
+
+def get_quote():
+    person = random.choice(HUMANS)
+    quote_selection = wikiquote.quotes(person, max_quotes=100)
+    single_quote = random.choice(quote_selection)
+    return single_quote, person
 
 if __name__ == "__main__":
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
     if args['quote']:
-        name = args['<name>']
-
-        quote_selection = wikiquote.quotes(name, max_quotes=100)
-        single_quote = random.choice(quote_selection)
-
-        wrapped_quote = '\n'.join(textwrap.wrap(single_quote, 80))
-        wrapped_indented_quote = textwrap.indent(wrapped_quote, '   ')
-
-        print(name, wrapped_indented_quote, sep='\n')
+        quote, person = get_quote()
+        print_quote(quote, person)
