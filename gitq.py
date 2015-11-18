@@ -34,7 +34,13 @@ def format_quote(quote):
 
 def print_quote(quote, person):
     formatted_quote = format_quote(quote)
-    print(formatted_quote, person.rjust(79), sep='\n\n')
+
+    offset = 79
+    quote_length = len(formatted_quote)
+    if quote_length < 79:
+        offset = quote_length
+
+    print(formatted_quote, person.rjust(offset), sep='\n\n')
 
 
 def get_quote():
