@@ -17,37 +17,37 @@ class TestGitqCLI:
 
     def test_docopt_string(self):
         """Should return docstring when gitq is called with no arguments"""
-        args = ['python', 'gitq.py']
+        args = ['gitq']
         r1 = subprocess.check_output(args).decode()
         assert self.strip_stdout(gitq.__doc__) == self.strip_stdout(r1)
 
     def test_docopt_string_with_short_help_arg(self):
         """Should return docstring when gitq is called with short help arg"""
-        args = ['python', 'gitq.py', '-h']
+        args = ['gitq', '-h']
         r1 = subprocess.check_output(args).decode()
         assert self.strip_stdout(gitq.__doc__) == self.strip_stdout(r1)
 
     def test_docopt_string_with_long_help_arg(self):
         """Should return docstring when gitq is called with long help arg"""
-        args = ['python', 'gitq.py', '--help']
+        args = ['gitq', '--help']
         r1 = subprocess.check_output(args).decode()
         assert self.strip_stdout(gitq.__doc__) == self.strip_stdout(r1)
 
     def test_long_version(self):
         """Should return version when gitq is called with long version arg"""
-        args = ['python', 'gitq.py', '--version']
+        args = ['gitq', '--version']
         r1 = subprocess.check_output(args).decode()
         assert self.strip_stdout(r1) == gitq.VERSION
 
     def test_short_version(self):
         """Should return version when gitq is called with short version arg"""
-        args = ['python', 'gitq.py', '-v']
+        args = ['gitq', '-v']
         r1 = subprocess.check_output(args).decode()
         assert self.strip_stdout(r1) == gitq.VERSION
 
     def test_quote(self):
         """Should return quote when gitq is called with quote argument"""
-        args = ['python', 'gitq.py', 'quote']
+        args = ['gitq', 'quote']
         r1 = subprocess.check_output(args).decode()
         assert isinstance(r1, str)
         assert (delim in r1 for delim in ['|>>', '<<|'])

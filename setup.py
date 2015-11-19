@@ -1,11 +1,28 @@
 import os
-from setuptools import setup, find_packages
+import setuptools
+import distutils.core
+
+
+class PyTest(distutils.core.Command):
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        import subprocess
+        import sys
+        errno = subprocess.call([sys.executable, 'runtests.py'])
+        raise SystemExit(errno)
 
 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-setup(
+setuptools.setup(
     name='gitq',
     version='0.0.1',
     author='Luke Murphy',
@@ -14,7 +31,7 @@ setup(
     license='@TODO',
     keywords='git',
     url='@TODO',
-    packages=find_packages(exclude='tests'),
+    packages=setuptools.find_packages(exclude='tests'),
     long_description=read('README.md'),
     install_requires=[
         'lxml',
@@ -37,4 +54,5 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
+    cmdclass={'test': PyTest}
 )
