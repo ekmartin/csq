@@ -1,5 +1,5 @@
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def read(fname):
@@ -14,7 +14,7 @@ setup(
     license="@TODO",
     keywords="git",
     url="@TODO",
-    packages=['gitq', 'tests'],
+    packages=find_packages(exclude='tests'),
     long_description=read('README.md'),
     classifiers=['@TODO'],
 )
