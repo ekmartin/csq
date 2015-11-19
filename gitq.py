@@ -2,6 +2,7 @@
 Usage:
     gitq quote
     gitq [--version]
+    gitq [--enable]
 
 Arguments:
   quote             A computer related quote
@@ -9,6 +10,7 @@ Arguments:
 Options:
   -h --help         Show help
   -v --version      Show version
+  -e --enable       Enable gitq in the current Git repository
 """
 import sys
 import docopt
