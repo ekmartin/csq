@@ -22,6 +22,9 @@ setup(
         'wheel',
         'wikiquote'
     ],
+    entry_points={
+        'console_scripts': ['gitq=gitq.gitq:main']
+    },
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',

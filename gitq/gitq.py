@@ -51,8 +51,11 @@ def get_quote():
     single_quote = random.choice(quote_selection)
     return single_quote, human
 
-if __name__ == "__main__":
+
+def main():
+    """CLI entry point to the program"""
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
+
     if args['quote']:
         print(*format_quote(*get_quote()), sep='\n')
     elif args['--version']:
