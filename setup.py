@@ -16,5 +16,11 @@ setup(
     url="@TODO",
     packages=find_packages(exclude='tests'),
     long_description=read('README.md'),
+    install_requires=[
+        'lxml',
+        'docopt',
+        'wheel',
+        'wikiquote'
+    ],
     classifiers=['@TODO'],
 )
