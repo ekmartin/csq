@@ -17,6 +17,7 @@ import wikiquote
 import textwrap
 
 OFFSET = 79
+VERSION = '0.0.1'
 INDENT_OFFSET = 4
 
 HUMANS = [
@@ -52,5 +53,7 @@ if __name__ == "__main__":
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
     if args['quote']:
         print(*format_quote(*get_quote()), sep='\n')
+    elif args['--version']:
+        print(VERSION)
     else:
         print(__doc__)
