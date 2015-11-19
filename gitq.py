@@ -1,5 +1,4 @@
-"""gitq
-
+"""
 Usage:
     gitq quote
     gitq [--version]
@@ -53,3 +52,5 @@ if __name__ == "__main__":
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
     if args['quote']:
         print(*format_quote(*get_quote()), sep='\n')
+    else:
+        print(__doc__)
