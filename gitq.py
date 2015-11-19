@@ -52,5 +52,4 @@ def get_quote():
 if __name__ == "__main__":
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
     if args['quote']:
-        quote, human = get_quote()
-        print(*format_quote(quote, human), sep='\n')
+        print(*format_quote(*get_quote()), sep='\n')
