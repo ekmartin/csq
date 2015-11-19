@@ -17,6 +17,9 @@ import random
 import wikiquote
 import textwrap
 
+OFFSET = 79
+INDENT_OFFSET = 4
+
 HUMANS = [
     'Donald Knuth', 'Tim Berners-Lee', 'Alan Turing', 'Grace Hopper',
     'Ada Lovelace', 'Ken Thompson', 'Niklaus Wirth', 'John von Neumann',
@@ -26,31 +29,28 @@ HUMANS = [
 ]
 
 
-def format_quote(quote):
-    wrapped_quote = '\n'.join(textwrap.wrap(quote, 79))
-    wrapped_indented_quote = textwrap.indent(wrapped_quote, '   ')
-    return wrapped_indented_quote
+def format_quote(quote, human):
+    """Indented, annotated and wrapped quote and human name"""
+    wrapped_quote = '\n'.join(textwrap.wrap(quote, OFFSET))
+    fquote = textwrap.indent(wrapped_quote, ' '*INDENT_OFFSET)
 
+    annotated_human = '|>> ' + human + ' <<|'
+    human_offset = len(quote) if len(quote) < OFFSET else OFFSET
+    indented_human = annotated_human.rjust(human_offset)
+    fhuman = textwrap.indent(indented_human, ' '*INDENT_OFFSET)
 
-def print_quote(quote, person):
-    formatted_quote = format_quote(quote)
-
-    offset = 79
-    quote_length = len(formatted_quote)
-    if quote_length < 79:
-        offset = quote_length
-
-    print(formatted_quote, person.rjust(offset), sep='\n\n')
+    return fquote, fhuman
 
 
 def get_quote():
-    person = random.choice(HUMANS)
-    quote_selection = wikiquote.quotes(person, max_quotes=100)
+    """A quote and a human who said it"""
+    human = random.choice(HUMANS)
+    quote_selection = wikiquote.quotes(human, max_quotes=100)
     single_quote = random.choice(quote_selection)
-    return single_quote, person
+    return single_quote, human
 
 if __name__ == "__main__":
     args = docopt.docopt(__doc__, argv=sys.argv[1:])
     if args['quote']:
-        quote, person = get_quote()
-        print_quote(quote, person)
+        quote, human = get_quote()
+        print(*format_quote(quote, human), sep='\n')
