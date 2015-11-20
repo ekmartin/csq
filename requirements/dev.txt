@@ -1,9 +1,0 @@
--r base.txt
-
-flake8==2.5.0
-mccabe==0.3.1
-pep8==1.5.7
-py==1.4.30
-pyflakes==1.0.0
-pytest==2.8.2
-tox==2.2.1
