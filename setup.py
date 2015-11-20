@@ -19,9 +19,6 @@ class PyTest(distutils.core.Command):
         raise SystemExit(errno)
 
 
-def read(fname):
-    return open(os.path.join(os.path.dirname(__file__), fname)).read()
-
 setuptools.setup(
     name='gitq',
     version='0.0.1',
@@ -32,7 +29,7 @@ setuptools.setup(
     keywords='git',
     url='@TODO',
     packages=setuptools.find_packages(exclude='tests'),
-    long_description=read('README.md'),
+    long_description='README.md',
     install_requires=[
         'lxml',
         'docopt',
@@ -40,7 +37,7 @@ setuptools.setup(
         'wikiquote'
     ],
     entry_points={
-        'console_scripts': ['gitq=gitq.gitq:main']
+        'console_scripts': ['gitq=gitq:main']
     },
     classifiers=[
         'Environment :: Console',

@@ -1,1 +1,5 @@
 .cache/
+.tox/
+gitq.egg-info/
+build/
+dist/
