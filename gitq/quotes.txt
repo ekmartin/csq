@@ -41,7 +41,7 @@
         "I believe that at the end of the century the use of words and general educated opinion will have altered so much that one will be able to speak of machines thinking without expecting to be contradicted.",
         "I am not very impressed with theological arguments whatever they may be used to support. Such arguments have often been found unsatisfactory in the past. In the time of Galileo it was argued that the texts, \"And the sun stood still... and hasted not to go down about a whole day\" (Joshua x. 13) and \"He laid the foundations of the earth, that it should not move at any time\" (Psalm cv. 5) were an adequate refutation of the Copernican theory.",
         "The view that machines cannot give rise to surprises is due, I believe, to a fallacy to which philosophers and mathematicians are particularly subject. This is the assumption that as soon as a fact is presented to a mind all consequences of that fact spring into the mind simultaneously with it. It is a very useful assumption under many circumstances, but one too easily forgets that it is false. A natural consequence of doing so is that one then assumes that there is no virtue in the mere working out of consequences from data and general principles.",
-        "We can only see a short distance ahead, but we can see plenty there that needs to be done.",
+        "We can only see a short distance ahead, but we can see plenty there that needs to be done."
     ],
     "Bill Gates": [
         "If something is expensive to develop, and somebody's not going to get paid, it won't get developed. So you decide: Do you want software to be written, or not?",
@@ -105,7 +105,7 @@
         "I see little commercial potential for the internet for the next 10 years.",
         "Intellectual property has the shelf life of a banana.",
         "Life is not fair. Get used to it... Be nice to nerds. Chances are you'll end up working for one.",
-        "A future startup with no patents of its own will be forced to pay whatever price the giants choose to impose. That price might be high. Established companies have an interest in excluding future competitors.",
+        "A future startup with no patents of its own will be forced to pay whatever price the giants choose to impose. That price might be high. Established companies have an interest in excluding future competitors."
     ],
     "Bjarne Stroustrup": [
         "Within C++, there is a much smaller and cleaner language struggling to get out.",
@@ -122,14 +122,14 @@
         "I do not think that safety should be bought at the cost of complicating the expression of good solutions to real-life problems.",
         "The connection between the language in which we think/program and the problems and solutions we can imagine is very close. For this reason restricting language features with the intent of eliminating programmer errors is at best dangerous.",
         "If you do anything useful it will haunt you forever after, and if you have a major success you get decades of hard manual labor - meaning you have to work on the manual.",
-        "One of the things I really like about programming languages is that it's the perfect excuse to stick your nose into any field. So if you're interested in high energy physics and the structure of the universe, being a programmer is one of the best ways to get in there. It's probably easier than becoming a theoretical physicist",
+        "One of the things I really like about programming languages is that it's the perfect excuse to stick your nose into any field. So if you're interested in high energy physics and the structure of the universe, being a programmer is one of the best ways to get in there. It's probably easier than becoming a theoretical physicist"
     ],
     "Brian Kernighan": [
         "Controlling complexity is the essence of computer programming.",
         "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.",
         "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?",
         "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway.",
-        "Advice to students: Leap in and try things. If you succeed, you can have enormous influence. If you fail, you have still learned something, and your next attempt is sure to be better for it. Advice to graduates: Do something you really enjoy doing. If it isn’t fun to get up in the morning and do your job or your school program, you’re in the wrong field.",
+        "Advice to students: Leap in and try things. If you succeed, you can have enormous influence. If you fail, you have still learned something, and your next attempt is sure to be better for it. Advice to graduates: Do something you really enjoy doing. If it isn’t fun to get up in the morning and do your job or your school program, you’re in the wrong field."
     ],
     "Bruce Schneier": [
         "Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can't break.",
@@ -153,7 +153,7 @@
     "C. A. R. Hoare": [
         "Programming languages on the whole are very much more complicated than they used to be: object orientation, inheritance, and other features are still not really being thought through from the point of view of a coherent and scientifically well-based discipline or a theory of correctness. My original postulate, which I have been pursuing as a scientist all my life, is that one uses the criteria of correctness as a means of converging on a decent programming language design—one which doesn’t set traps for its users, and ones in which the different components of the program correspond clearly to different components of its specification, so you can reason compositionally about it. [...] The tools, including the compiler, have to be based on some theory of what it means to write a correct program.",
         "There are two ways of constructing a software design: One way is to make it so simple that there are obviously no deficiencies, and the other way is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult. It demands the same skill, devotion, insight, and even inspiration as the discovery of the simple physical laws which underlie the complex phenomena of nature.",
-        "One fine morning, when the emperor felt hot and bored, he extricated himself carefully from under the mountain of clothes and is now living happily as a swineherd in another story. The tailor is canonized as the patron saint of all consultants, because in spite of the enormous fees he extracted, he was never able to convince his clients of his dawning realization that their clothes have no Emperor.",
+        "One fine morning, when the emperor felt hot and bored, he extricated himself carefully from under the mountain of clothes and is now living happily as a swineherd in another story. The tailor is canonized as the patron saint of all consultants, because in spite of the enormous fees he extracted, he was never able to convince his clients of his dawning realization that their clothes have no Emperor."
     ],
     "Dennis Ritchie": [
         "What we wanted to preserve was not just a good environment in which to do programming, but a system around which fellowship could form. We knew from experience that the essence of communal computing, as supplied by remote-access, time-shared machines, is not just to type programs into a terminal instead of a keypunch, but to encourage close communication.",
@@ -198,7 +198,7 @@
         "In this sense, we should continually be striving to transform every art into a science: in the process, we advance the art.",
         "The real problem is that programmers have spent far too much time worrying about efficiency in the wrong places and at the wrong times; premature optimization is the root of all evil (or at least most of it) in programming.",
         "To summarize: We have seen that computer programming is an art, because it applies accumulated knowledge to the world, because it requires skill and ingenuity, and especially because it produces objects of beauty. A programmer who subconsciously views himself as an artist will enjoy what he does and will do it better. Therefore we can be glad that people who lecture at computer conferences speak of the state of the Art.",
-        "Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.",
+        "Let us change our traditional attitude to the construction of programs: Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do."
     ],
     "Donald Norman": [
         "Academics get paid for being clever, not for being right.",
@@ -228,8 +228,7 @@
     "Douglas Crockford": [
         "The good thing about reinventing the wheel is that you can get a round one.",
         "Progress comes from finding better ways to do things. Don’t be afraid of innovation. Don’t be afraid of ideas that are not your own.",
-        "Don't worry about anything. Just do what you can and be the best you can be.",
-        "You feel like you are floating away when you do Transcendental Meditation and it just enriches your spirit and nourishes the body. I feel so grateful to the Maharishi for teaching such wonderful things."
+        "Don't worry about anything. Just do what you can and be the best you can be."
     ],
     "Douglas Engelbart": [
         "The key thing about all the world's big problems is that they have to be dealt with collectively. If we don't get collectively smarter, we're doomed.",
@@ -287,7 +286,7 @@
         "In short, I suggest that the programmer should continue to understand what he is doing, that his growing product remains firmly within his intellectual grip. It is my sad experience that this suggestion is repulsive to the average experienced programmer, who clearly derives a major part of his professional excitement from not quite understanding what he is doing. In this streamlined age, one of our most undernourished psychological needs is the craving for Black Magic and apparently the automatic computer can satisfy this need for the professional software engineer, who is secretly enthralled by the gigantic risks he takes in his daring irresponsibility. For his frustrations I have no remedy......",
         "This is generally true: any sizeable piece of program, or even a complete program package, is only a useful tool that can be used in a reliable fashion, provided that the documentation pertinent for the user is much shorter than the program text. If any machine or system requires a very thick manual, its usefulness becomes for that very circumstance subject to doubt!",
         "Computer Science is no more about computers than astronomy is about telescopes.",
-        "Go To statement considered harmful",
+        "Go To statement considered harmful"
     ],
     "Gordon Moore": [
         "The complexity for minimum component costs has increased at a rate of roughly a factor of two per year... Certainly over the short term this rate can be expected to continue, if not to increase. Over the longer term, the rate of increase is a bit more uncertain, although there is no reason to believe it will not remain nearly constant for at least 10 years. That means by 1975, the number of components per integrated circuit for minimum cost will be 65,000. I believe that such a large circuit can be built on a single wafer.",
@@ -314,7 +313,7 @@
         "You manage things, you lead people. We went overboard on management and forgot about leadership. It might help if we ran the MBAs out of Washington.",
         "The wonderful thing about standards is that there are so many of them to choose from.",
         "A ship in port is safe; but that is not what ships are built for. Sail out to sea and do new things.",
-        "To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge.",
+        "To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge."
     ],
     "Grady Booch": [
         "Perhaps the greatest strength of an object-oriented approach to development is that it offers a mechanism that captures a model of the real world.",
@@ -345,13 +344,13 @@
         "In a quality object-oriented software system, you will find many classes that speak the language of the domain expert",
         "Good people with a good process will outperform good people with no process every time.",
         "Is object-oriented technology mature enough upon which to build indus­trial-strength systems? Absolutely. Does this technology scale? Indeed. Is it the sole technology worth considering? No way. Is there some better technology we should be using in the future? Possibly, but I am clueless as to what that might be. It is dangerous to make predictions, especially in a discipline that changes so rapidly, but one thing I can say with confidence is that I have seen the future, and it is object-oriented.",
-        "The entire history of software engineering is that of the rise in levels of abstraction.",
+        "The entire history of software engineering is that of the rise in levels of abstraction."
     ],
     "Hal Abelson": [
         "If I have not seen as far as others, it is because giants were standing on my shoulders.",
         "Applicants must also have extensive knowledge of Unix, although they should have sufficiently good programming taste to not consider this an achievement",
         "In the Middle Ages people built cathedrals, where the whole town would get together and make a thing that's greater than any individual person could do and the society would kind of revel in that. We don't do that as much anymore, but in a sense this is kind of like building a cathedral.",
-        "Anything which uses science as part of its name isn't: political science, creation science, computer science.",
+        "Anything which uses science as part of its name isn't: political science, creation science, computer science."
     ],
     "John Backus": [
         "For twenty years programming languages have been steadily progressing toward their present condition of obesity; as a result, the study and invention of programming languages has lost much of its excitement. Instead, it is now the province of those who prefer to work with thick compendia of details rather than wrestle with new ideas. Discussions about programming languages often resemble medieval debates about the number of angels that can dance on the head of a pin instead of exciting contests between fundamentally differing concepts. Many creative computer scientists have retreated from inventing languages to inventing tools for describing them. Unfortunately, they have been largely content to apply their elegant new tools to studying the warts and moles of existing languages.",
@@ -373,7 +372,7 @@
         "If one has really technically penetrated a subject, things that previously seemed in complete contrast, might be purely mathematical transformations of each other.",
         "If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.",
         "There probably is a God. Many things are easier to explain if there is than if there isn't.",
-        "If you say why not bomb them tomorrow, I say why not today? If you say today at five o' clock, I say why not one o' clock?",
+        "If you say why not bomb them tomorrow, I say why not today? If you say today at five o' clock, I say why not one o' clock?"
     ],
     "Ken Thompson": [
         "You can't trust code that you did not totally create yourself. (Especially code from companies that employ people like me.) No amount of source-level verification or scrutiny will protect you from using untrusted code.",
@@ -394,17 +393,17 @@
         "I must say the Linux community is a lot nicer than the Unix community. A negative comment on Unix would warrent death threats. With Linux, it is like stirring up a nest of butterflies.",
         "I would try out the [C++] language [at AT&T] as it was being developed and make comments on it. It was part of the work atmosphere there. And you'd write something and then the next day it wouldn't work because the language changed. It was very unstable for a very long period of time. At some point, I said, no, no more. In an interview I said exactly that, that I didn't use it because it wouldn't stay still for two days in a row. When Stroustrup read the interview he came screaming into my room about how I was undermining him and what I said mattered and I said it was a bad language.",
         "I used to [look at the Linux source code], for Plan 9. They were always ahead of us—they just had massively more resources to deal with hardware. So when we'd run across a piece of hardware, I'd look at the Linux drivers for it and write Plan 9 drivers for it. Now I have no reason to look at it. I run Linux. And I occasionally look at code, but rarely, so I can't really tell whether the quality has gotten better or not [since 1999]. But certainly the reliability has gotten better.",
-        "When the three of us [Thompson, Rob Pike, and Robert Griesemer] got started, it was pure research. The three of us got together and decided that we hated C++. [laughter] ... [Returning to Go,] we started off with the idea that all three of us had to be talked into every feature in the language, so there was no extraneous garbage put into the language for any reason.",
+        "When the three of us [Thompson, Rob Pike, and Robert Griesemer] got started, it was pure research. The three of us got together and decided that we hated C++. [laughter] ... [Returning to Go,] we started off with the idea that all three of us had to be talked into every feature in the language, so there was no extraneous garbage put into the language for any reason."
     ],
     "Konrad Zuse": [
-        "The rattling of the relays of the Z4 was the only interesting thing to be experienced in Zurich's night life!",
+        "The rattling of the relays of the Z4 was the only interesting thing to be experienced in Zurich's night life!"
     ],
     "Larry Page": [
         "The Star Trek computer doesn't seem that interesting. They ask it random questions, it thinks for a while. I think we can do better than that.",
         "I have a simple algorithm, which is, wherever you see paid researchers instead of grad students, that's not where you want to be doing research.",
         "If you look at things like Google Now also. Maybe you want to just have [a question] answered for you before you ask it.",
         "It's hard to keep things moving. And that's always a big trick. I think for me, the key is setting really big goals. And, you know, with YouTube, I think we've had tremendous leadership, both with the founders and now with Salar, who's been running it.",
-        "Sometimes it’s important to wake up and stop dreaming. When a really great dream shows up, grab it",
+        "Sometimes it’s important to wake up and stop dreaming. When a really great dream shows up, grab it"
     ],
     "Larry Wall": [
         "Although the Perl Slogan is There's More Than One Way to Do It, I hesitate to make 10 ways to do something.",
@@ -686,7 +685,7 @@
         "Now, most of you are probably going to be totally bored out of your minds on Christmas day, and here's the perfect distraction. Test 2.6.15-rc7. All the stores will be closed, and there's really nothing better to do in between meals.",
         "First off, I'm actually perfectly well off. I live in a good-sized house, with a nice yard, with deer occasionally showing up and eating the roses (my wife likes the roses more, I like the deer more, so we don't really mind). I've got three kids, and I know I can pay for their education. What more do I need? The thing is, being a good programmer actually pays pretty well; being acknowledged as being world-class pays even better. I simply didn't need to start a commercial company. And it's just about the least interesting thing I can even imagine. I absolutely hate paperwork. I couldn't take care of employees if I tried. A company that I started would never have succeeded – it's simply not what I'm interested in! So instead, I have a very good life, doing something that I think is really interesting, and something that I think actually matters for people, not just me. And that makes me feel good.",
         "So LSM stays in. No ifs, buts, maybes or anything else. When I see the security people making sane arguments and agreeing on something, that will change. Quite frankly, I expect hell to freeze over before that happens, and pigs will be nesting in trees. But hey, I can hope.",
-        "So I would not be surprised if the globbing libraries, for example, will do NFD-mangling in order to glob \"correctly\", so even programs ported from real Unix might end up getting pathnames subtly changed into NFD as part of some hot library-on-library action with UTF hackery inside.",
+        "So I would not be surprised if the globbing libraries, for example, will do NFD-mangling in order to glob \"correctly\", so even programs ported from real Unix might end up getting pathnames subtly changed into NFD as part of some hot library-on-library action with UTF hackery inside."
     ],
     "Martin Fowler": [
         "People also underestimate the time they spend debugging. They underestimate how much time they can spend chasing a long bug. With testing, I know straight away when I added a bug. That lets me fix the bug immediately, before it can crawl off and hide. There are few things more frustrating or time wasting than debugging. Wouldn't it be a hell of a lot quicker if we just didn't create the bugs in the first place?",
@@ -707,7 +706,7 @@
         "Steve Mellor and I independently came up with a characterization of the three modes in which people use the UML: sketch, blueprint, and programming language. By far the most common of the three, at least to my biased eye, is UML as sketch. In this usage, developers use the UML to help communicate some aspects of a system. As with blueprints, you can use sketches in a forward-engineering or reverse-engineering direction. Forward engineering draws a UML diagram before you write code, while reverse engineering builds a UML diagram from existing code in order to help understand it.",
         "The key books about object-oriented graphical modeling languages appeared between 1988 and 1992. Leading figures included Grady Booch [Booch,OOAD]; Peter Coad [Coad, OOA], [Coad, OOD]; Ivar Jacobson (Objectory) [Jacobson, OOSE]; Jim Odell [Odell]; Jim Rumbaugh (OMT) [Rumbaugh, insights], [Rumbaugh, OMT]; Sally Shlaer and Steve Mellor [Shlaer and Mellor, data], [Shlaer and Mellor, states] ; and Rebecca Wirfs-Brock (Responsibility Driven Design) [Wirfs-Brock].",
         "Graphical design notations have been with us for a while... their primary value is in communication and understanding. A good diagram can often help communicate ideas about a design, particularly when you want to avoid a lot of details. Diagrams can also help you understand either a software system or a business process . As part of a team trying to figure out something, diagrams both help understanding and communicate that understanding throughout a team. Although they aren't, at least yet, a replacement for textual programming languages, they are a helpful assistant... Of these graphical notations, the UML's importance comes from its wide use and standardization within the OO development community. The UML has become not only the dominant graphical notation within the OO world but also a popular technique in non-OO circles.",
-        "Comprehensiveness is the enemy of comprehensibility",
+        "Comprehensiveness is the enemy of comprehensibility"
     ],
     "Niklaus Wirth": [
         "Software gets slower faster than hardware gets faster.",
@@ -719,7 +718,7 @@
         "During the process of stepwise refinement, a notation which is natural to the problem in hand should be used as long as possible.",
         "Experience shows that the success of a programming course critically depends on the choice of these examples.",
         "In the practical world of computing, it is rather uncommon that a program, once it performs correctly and satisfactorily, remains unchanged forever.",
-        "Programming is usually taught by examples.",
+        "Programming is usually taught by examples."
     ],
     "Paul Graham": [
         "Architects know that some kinds of design problems are more personal than others. One of the cleanest, most abstract design problems is designing bridges. There your job is largely a matter of spanning a given distance with the least material. The other end of the spectrum is designing chairs. Chair designers have to spend their time thinking about human butts.",
@@ -764,7 +763,7 @@
         "The most dangerous way to lose time is not to spend it having fun, but to spend it doing fake work. When you spend time having fun, you know you're being self-indulgent. Alarms start to go off fairly quickly. If I woke up one morning and sat down on the sofa and watched TV all day, I'd feel like something was terribly wrong. ... But the same alarms don't go off on the days when I get nothing done, because I'm doing stuff that seems, superficially, like real work.",
         "Being mean makes you stupid. That's why I hate fights. You never do your best work in a fight, because fights are not sufficiently general. Winning is always a function of the situation and the people involved. You don't win fights by thinking of big ideas but by thinking of tricks that work in one particular case. And yet fighting is just as much work as thinking about real problems.",
         "Jessica and I have always worked hard to teach our kids not to be mean. We tolerate noise and mess and junk food, but not meanness.",
-        "I actually worry a lot that as I get \"popular\" I'll be able to get away with saying stupider stuff than I would have dared say before. This sort of thing happens to a lot of people, and I would really like to avoid it.",
+        "I actually worry a lot that as I get \"popular\" I'll be able to get away with saying stupider stuff than I would have dared say before. This sort of thing happens to a lot of people, and I would really like to avoid it."
     ],
     "Rasmus Lerdorf": [
         "I did not develop the PHP we know today. Dozens, if not hundreds of people, developed PHP. I was simply the first developer.",
@@ -991,7 +990,7 @@
         "I started keeping a list of these annoyances but it got too long and depressing so I just learned to live with them again. We really are using a 1970s era operating system well past its sell-by date. We get a lot done, and we have fun, but let's face it, the fundamental design of Unix is older than many of the readers of Slashdot, while lots of different, great ideas about computing and networks have been developed in the last 30 years. Using Unix is the computing equivalent of listening only to music by David Cassidy.",
         "The major things we saw wrong with Unix when we started talking about what would become Plan 9, back around 1985, all stemmed from the appearance of a network. As a stand-alone system, Unix was pretty good. But when you networked Unix machines together, you got a network of stand-alone systems instead of a seamless, integrated networked system. Instead of one big file system, one user community, one secure setup uniting your network of machines, you had a hodgepodge of workarounds to Unix's fundamental design decision that each machine is self-sufficient.",
         "One odd detail that I think was vital to how the group functioned was a result of the first Unix being run on a clunky minicomputer with terminals in the machine room. People working on the system congregated in the room - to use the computer, you pretty much had to be there. (This idea didn't seem odd back then; it was a natural evolution of the old hour-at-a-time way of booking machines like the IBM 7090.) The folks liked working that way, so when the machine was moved to a different room from the terminals, even when it was possible to connect from your private office, there was still a \"Unix room\" with a bunch of terminals where people would congregate, code, design, and just hang out. (The coffee machine was there too.)",
-        "The Unix room still exists, and it may be the greatest cultural reason for the success of Unix as a technology. More groups could profit from its lesson, but it's really hard to add a Unix-room-like space to an existing organization. You need the culture to encourage people not to hide in their offices, you need a way of using systems that makes a public machine a viable place to work - typically by storing the data somewhere other than the \"desktop\" - and you need people like Ken and Dennis (and Brian Kernighan and Doug McIlroy and Mike Lesk and Stu Feldman and Greg Chesson and ...) hanging out in the room, but if you can make it work, it's magical. When I first started at the Labs, I spent most of my time in the Unix room. The buzz was palpable; the education unparalleled.",
+        "The Unix room still exists, and it may be the greatest cultural reason for the success of Unix as a technology. More groups could profit from its lesson, but it's really hard to add a Unix-room-like space to an existing organization. You need the culture to encourage people not to hide in their offices, you need a way of using systems that makes a public machine a viable place to work - typically by storing the data somewhere other than the \"desktop\" - and you need people like Ken and Dennis (and Brian Kernighan and Doug McIlroy and Mike Lesk and Stu Feldman and Greg Chesson and ...) hanging out in the room, but if you can make it work, it's magical. When I first started at the Labs, I spent most of my time in the Unix room. The buzz was palpable; the education unparalleled."
     ],
     "Tim Berners-Lee": [
         "I just had to take the hypertext idea and connect it to the TCP and DNS ideas and — ta-da!— the World Wide Web.",
@@ -1015,6 +1014,6 @@
         "The web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy. The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies. We develop trust across the miles and distrust around the corner.",
         "At CERN there was a credo meant to avoid unnecessary labors, it said that when acquiring new technology: Buy, Don't Build. There were several commercial hypertext editors and I thought we could just add some internet code, so that the hypertext documents could then be sent over the internet. I thought the companies engaged in the then fringe field of hypertext would immediately grasp the possibilities of the web. Unfortunately, their reaction was quite the opposite... it seemed that explaining the vision of the web was exceedingly difficult without a web browser in hand, people had to be able to grasp the web in full, which meant imagining a whole world populated with websites and browsers. It was a lot to ask. Despite the buy don't build credo I came to the conclusion that I was going to have to create the web on my own.",
         "In an extreme view, the world can be seen as only connections, nothing else. We think of a dictionary as the repository of meaning, but it defines words only in terms of other words. I liked the idea that a piece of information is really defined only by what it's related to, and how it's related. There really is little else to meaning. The structure is everything. There are billions of neurons in our brains, but what are neurons? Just cells. The brain has no knowledge until connections are made between neurons. All that we know, all that we are, comes from the way our neurons are connected.",
-        "The trick... is to make sure that each limited mechanical part of the Web, each application, is within itself composed of simple parts that will never get too powerful.",
+        "The trick... is to make sure that each limited mechanical part of the Web, each application, is within itself composed of simple parts that will never get too powerful."
     ]
 }

@@ -1,6 +1,7 @@
+import os
 import gitq
+import json
 import random
-import wikiquote
 import textwrap
 
 OFFSET = 79
@@ -22,7 +23,9 @@ def format_quote(quote, human):
 
 def get_quote():
     """A quote and a human who said it"""
-    human = random.choice(gitq.HUMANS)
-    quote_selection = wikiquote.quotes(human, max_quotes=100)
-    single_quote = random.choice(quote_selection)
-    return single_quote, human
+    with open(os.path.join(gitq.BASE_DIR, 'quotes.txt')) as f:
+        quotes = json.load(f)
+        human = random.choice(list(quotes.keys()))
+        quote_selection = quotes[human]
+        single_quote = random.choice(quote_selection)
+        return single_quote, human
