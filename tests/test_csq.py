@@ -2,7 +2,7 @@ import csq.cli
 import subprocess
 
 
-class TestcsqCLI:
+class TestCsqCLI:
     def strip_stdout(self, s):
         return s.replace('\n', '')
 
