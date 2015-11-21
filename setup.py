@@ -1,3 +1,4 @@
+import gitq
 import setuptools
 import distutils.core
 
@@ -20,7 +21,7 @@ class PyTest(distutils.core.Command):
 
 setuptools.setup(
     name='gitq',
-    version='0.0.1',
+    version=gitq.VERSION,
     author='Luke Murphy',
     author_email='lukewm@riseup.net',
     description='@TODO',
