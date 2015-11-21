@@ -1,14 +1,17 @@
 import gitq
-import random
-import wikiquote
+import gitq.gitq as gitq
 import subprocess
 
 
 class TestGitqInternals:
     def test_humans_quote(self):
         """Should be retrieve a quote from all humans in gitq.HUMANS"""
-        for human in gitq.HUMANS:
-            random.choice(wikiquote.quotes(human))
+        # @TODO only for debugging
+        pass
+        # import random
+        # import wikiquote
+        # for human in gitq.HUMANS:
+        #     random.choice(wikiquote.quotes(human))
 
 
 class TestGitqCLI:

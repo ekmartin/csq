@@ -1,4 +1,3 @@
-import os
 import setuptools
 import distutils.core
 
@@ -15,7 +14,7 @@ class PyTest(distutils.core.Command):
     def run(self):
         import subprocess
         import sys
-        errno = subprocess.call([sys.executable, 'runtests.py'])
+        errno = subprocess.call([sys.executable, 'tests/runtests.py'])
         raise SystemExit(errno)
 
 
@@ -37,7 +36,7 @@ setuptools.setup(
         'wikiquote'
     ],
     entry_points={
-        'console_scripts': ['gitq=gitq:main']
+        'console_scripts': ['gitq=gitq.__main__:main']
     },
     classifiers=[
         'Environment :: Console',
