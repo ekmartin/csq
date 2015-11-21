@@ -29,7 +29,7 @@ setuptools.setup(
     keywords='git',
     url='https://github.com/lwm/csq',
     packages=setuptools.find_packages(exclude='tests'),
-    long_description='README.md',
+    long_description=open('README.md').read(),
     install_requires=[
         'docopt',
     ],
@@ -45,6 +45,6 @@ setuptools.setup(
     ],
     cmdclass={'test': PyTest},
     package_data={
-      'csq': ['quotes.txt'],
-   },
+        'csq': ['quotes.txt'],
+    },
 )
