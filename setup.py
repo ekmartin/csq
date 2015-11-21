@@ -48,5 +48,8 @@ setuptools.setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
     ],
-    cmdclass={'test': PyTest}
+    cmdclass={'test': PyTest},
+    package_data={
+      'gitq': ['quotes.txt'],
+   },
 )
