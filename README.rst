@@ -11,7 +11,6 @@ humans in computing with ~1000 quotes.
 .. figure:: https://i.imgur.com/tZ77msA.gif
    :alt: GIF
 
-   GIF
 Installation
 ------------
 
