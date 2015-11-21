@@ -58,9 +58,7 @@ More quotes will be added as I find them. However, if you feel that
 there are some missing quotes (which there definitely are!), *please*
 feel free to `make a pull request <https://github.com/lwm/csq/pulls>`__,
 you can find the current list of quotes
-`here <https://github.com/lwm/csq/blob/master/csq/quotes.txt>`__. Go
-ahead and `fork this
-repository <https://help.github.com/articles/fork-a-repo/>`__!
+`here <https://github.com/lwm/csq/blob/master/csq/quotes.txt>`__.
 
 You will need the ``2.7`` and ``3.4`` interpreters installed to run the tests with
 `tox <https://codespeak.net/tox/>`__.
