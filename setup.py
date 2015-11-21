@@ -31,10 +31,7 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude='tests'),
     long_description='README.md',
     install_requires=[
-        'lxml',
         'docopt',
-        'wheel',
-        'wikiquote'
     ],
     entry_points={
         'console_scripts': ['gitq=gitq.__main__:main']
