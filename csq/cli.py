@@ -10,6 +10,7 @@ Options:
   -h --help         Show help
   -v --version      Show version
 """
+from __future__ import print_function
 
 import csq
 import docopt
