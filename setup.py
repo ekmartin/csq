@@ -1,4 +1,4 @@
-import gitq
+import csq
 import setuptools
 import distutils.core
 
@@ -20,8 +20,8 @@ class PyTest(distutils.core.Command):
 
 
 setuptools.setup(
-    name='gitq',
-    version=gitq.VERSION,
+    name='csq',
+    version=csq.VERSION,
     author='Luke Murphy',
     author_email='lukewm@riseup.net',
     description='@TODO',
@@ -34,7 +34,7 @@ setuptools.setup(
         'docopt',
     ],
     entry_points={
-        'console_scripts': ['gitq=gitq.__main__:main']
+        'console_scripts': ['csq=csq.__main__:main']
     },
     classifiers=[
         'Environment :: Console',
@@ -50,6 +50,6 @@ setuptools.setup(
     ],
     cmdclass={'test': PyTest},
     package_data={
-      'gitq': ['quotes.txt'],
+      'csq': ['quotes.txt'],
    },
 )

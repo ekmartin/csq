@@ -1,7 +1,7 @@
 """
 Usage:
-    gitq quote
-    gitq [--version]
+    csq quote
+    csq [--version]
 
 Arguments:
   quote             A computing related quote
@@ -11,9 +11,9 @@ Options:
   -v --version      Show version
 """
 
-import gitq
+import csq
 import docopt
-from gitq.qformat import format_quote, get_quote
+from csq.qformat import format_quote, get_quote
 
 
 def main(args=None):
@@ -24,6 +24,6 @@ def main(args=None):
         quote, person = format_quote(*get_quote())
         print(quote, person)
     elif args['--version']:
-        print(gitq.VERSION)
+        print(csq.VERSION)
     else:
         print(__doc__)

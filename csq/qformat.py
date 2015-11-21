@@ -1,5 +1,5 @@
 import os
-import gitq
+import csq
 import json
 import random
 import textwrap
@@ -24,7 +24,7 @@ def format_quote(quote, person):
 
 def get_quote():
     """A quote and a person who said it"""
-    with open(os.path.join(gitq.BASE_DIR, 'quotes.txt')) as fhandle:
+    with open(os.path.join(csq.BASE_DIR, 'quotes.txt')) as fhandle:
         all_quotes = json.load(fhandle)
         person = random.choice(list(all_quotes.keys()))
         quote_selection = all_quotes[person]

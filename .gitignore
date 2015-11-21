@@ -1,5 +1,5 @@
 .cache/
 .tox/
-gitq.egg-info/
+*.egg-info/
 build/
 dist/
