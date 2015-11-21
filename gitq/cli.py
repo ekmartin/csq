@@ -2,20 +2,18 @@
 Usage:
     gitq quote
     gitq [--version]
-    gitq [--enable]
 
 Arguments:
-  quote             A computer related quote
+  quote             A computing related quote
 
 Options:
   -h --help         Show help
   -v --version      Show version
-  -e --enable       Enable gitq in the current Git repository
 """
 
 import gitq
 import docopt
-from gitq.quote_formatter import format_quote, get_quote
+from gitq.qformat import format_quote, get_quote
 
 
 def main(args=None):

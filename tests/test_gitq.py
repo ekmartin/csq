@@ -34,15 +34,3 @@ class TestGitqCLI:
     def test_quote(self):
         args = ['gitq', 'quote']
         assert 0 == subprocess.call(args)
-
-    def test_short_enable_fails(self):
-        pass
-
-    def test_short_enable_succeeeds(self):
-        pass
-
-    def test_long_enable_fails(self):
-        pass
-
-    def test_long_enable_succeeeds(self):
-        pass
