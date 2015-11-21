@@ -4,6 +4,9 @@ csq: computing quotes on the command line
 .. image:: https://travis-ci.org/lwm/csq.svg
     :target: https://travis-ci.org/lwm/csq
 
+.. image:: https://badge.fury.io/py/csq.svg
+    :target: https://badge.fury.io/py/csq
+
 Introduction
 ------------
 
