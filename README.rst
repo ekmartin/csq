@@ -1,6 +1,9 @@
 csq: computing quotes on the command line
 =========================================
 
+.. image:: https://travis-ci.org/lwm/csq.svg
+    :target: https://travis-ci.org/lwm/csq
+
 Introduction
 ------------
 
