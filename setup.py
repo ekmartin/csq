@@ -24,10 +24,10 @@ setuptools.setup(
     version=csq.VERSION,
     author='Luke Murphy',
     author_email='lukewm@riseup.net',
-    description='@TODO',
-    license='@TODO',
+    description='Computing quotes on the command line',
+    license='GPL',
     keywords='git',
-    url='@TODO',
+    url='https://github.com/lwm/csq',
     packages=setuptools.find_packages(exclude='tests'),
     long_description='README.md',
     install_requires=[
@@ -39,14 +39,9 @@ setuptools.setup(
     classifiers=[
         'Environment :: Console',
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Version Control',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'License :: OSI Approved :: GNU General Public License (GPL)'
     ],
     cmdclass={'test': PyTest},
     package_data={
