@@ -7,6 +7,10 @@ csq: computing quotes on the command line
 .. image:: https://badge.fury.io/py/csq.svg
     :target: https://badge.fury.io/py/csq
 
+.. image:: https://landscape.io/github/lwm/csq/master/landscape.svg?style=flat
+    :target: https://landscape.io/github/lwm/csq/master
+    :alt: Code Health
+
 Introduction
 ------------
 
