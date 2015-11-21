@@ -29,7 +29,7 @@ setuptools.setup(
     keywords='git',
     url='https://github.com/lwm/csq',
     packages=setuptools.find_packages(exclude='tests'),
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     install_requires=[
         'docopt',
     ],

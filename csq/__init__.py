@@ -1,7 +1,7 @@
 import os
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
-VERSION = '0.0.2'
+VERSION = '0.0.3'
 HUMANS = [
     'Donald Knuth', 'Tim Berners-Lee', 'Alan Turing', 'Grace Hopper',
     'Ada Lovelace', 'Ken Thompson', 'Niklaus Wirth', 'John von Neumann',
