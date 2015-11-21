@@ -14,8 +14,8 @@ Options:
 """
 
 import gitq
-import gitq.quote_formatter
 import docopt
+from gitq.quote_formatter import format_quote, get_quote
 
 
 def main(args=None):
@@ -23,10 +23,8 @@ def main(args=None):
     args = docopt.docopt(__doc__, argv=args)
 
     if args['quote']:
-        q, p = gitq.quote_formatter.get_quote()
-        q, p = gitq.quote_formatter.format_quote(q, p)
-        print(q)
-        print(p)
+        quote, person = format_quote(*get_quote())
+        print(quote, person)
     elif args['--version']:
         print(gitq.VERSION)
     else:

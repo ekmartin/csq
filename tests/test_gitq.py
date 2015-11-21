@@ -33,9 +33,7 @@ class TestGitqCLI:
 
     def test_quote(self):
         args = ['gitq', 'quote']
-        r1 = subprocess.check_output(args).decode()
-        assert isinstance(r1, str)
-        assert (delim in r1 for delim in ['|>>', '<<|'])
+        assert 0 == subprocess.call(args)
 
     def test_short_enable_fails(self):
         pass

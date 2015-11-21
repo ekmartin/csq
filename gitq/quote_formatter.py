@@ -8,17 +8,20 @@ OFFSET = 79
 INDENT_OFFSET = 4
 
 
+def indent(text):
+    """Indented text using 'INDENT_OFFSET'"""
+    return '\n'.join((' '*INDENT_OFFSET) + x for x in text.splitlines())
+
+
 def format_quote(quote, human):
-    """Indented, annotated and wrapped quote and human name"""
-    wrapped_quote = '\n'.join(textwrap.wrap(quote, OFFSET))
-    fquote = textwrap.indent(wrapped_quote, ' '*INDENT_OFFSET)
+    """Indented and wrapped quote and human name"""
+    formatted_quote = indent('\n'.join(textwrap.wrap(quote, OFFSET)))
 
-    annotated_human = '|>> ' + human + ' <<|'
-    human_offset = len(quote) if len(quote) < OFFSET else OFFSET
-    indented_human = annotated_human.rjust(human_offset)
-    fhuman = textwrap.indent(indented_human, ' '*INDENT_OFFSET)
+    marked = '|>> ' + human + ' <<|'
+    offset = len(quote) if len(quote) < OFFSET else OFFSET
+    formatted_human = indent('\n' + marked.rjust(offset))
 
-    return fquote, fhuman
+    return formatted_quote, formatted_human
 
 
 def get_quote():
