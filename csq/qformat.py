@@ -4,7 +4,7 @@ import json
 import random
 import textwrap
 
-OFFSET = 79
+OFFSET = 65
 INDENT_OFFSET = 4
 
 
