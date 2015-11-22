@@ -1,2 +1,7 @@
 include LICENSE.txt
 include README.rst
+include CHANGES.txt
+
+exclude .travis.yml
+exclude tox.ini
+exclude requirements.txt
