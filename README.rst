@@ -71,6 +71,11 @@ You will need the ``2.7`` and ``3.4`` interpreters installed to run the tests wi
     pip install -e .  # install csq locally
     tox  # run the tests
 
+
+It has been highlighted to me that this has some potential for a
+`QOTD <https://en.wikipedia.org/wiki/QOTD>`__ service. So, that will
+be a nice way to extend ``csq``.
+
 Contact
 -------
 
