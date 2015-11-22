@@ -14,7 +14,6 @@ from __future__ import print_function
 
 import csq
 import docopt
-from csq.qformat import format_quote, get_quote
 
 
 def main(args=None):
@@ -22,8 +21,11 @@ def main(args=None):
     args = docopt.docopt(__doc__, argv=args)
 
     if args['quote']:
-        quote, person = format_quote(*get_quote())
-        print(quote, person)
+        quote, person = csq.qformat.get_quote()
+        print(
+            csq.qformat.format_quote(quote),
+            csq.qformat.format_person(person, len(quote))
+        )
     elif args['--version']:
         print(csq.VERSION)
     else:

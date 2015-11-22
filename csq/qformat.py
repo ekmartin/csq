@@ -14,24 +14,37 @@ def indent(text):
     return '\n'.join((' '*INDENT_OFFSET) + x for x in text.splitlines())
 
 
-def format_quote(quote, person):
-    """Indented and wrapped quote and person"""
+def format_person(person, quote_len):
+    """Offset and indented person"""
     person = '|>> ' + person + ' <<|'
-    offset = len(quote) if len(quote) < OFFSET else OFFSET
-    formatted_person = indent('\n' + person.rjust(offset))
-    formatted_quote = indent('\n'.join(textwrap.wrap(quote, OFFSET)))
-    return formatted_quote, formatted_person
+    offset = quote_len if quote_len < OFFSET else OFFSET
+    return indent('\n' + person.rjust(offset))
+
+
+def format_quote(quote):
+    """Wrapped, offset and indented quote"""
+    wrapped_quote = '\n'.join(textwrap.wrap(quote, OFFSET))
+    return indent(wrapped_quote)
+
+
+def explode_quote_set(quote_set):
+    """Transforms a dict of {k:[v]} to a list of [(k,v), (k,v)]"""
+    return [
+        (quote, person)
+        for person in quote_set
+        for quote in quote_set[person]
+    ]
+
+
+def load_quote_set(fhandle):
+    """A JSON loaded fhandle"""
+    return json.load(fhandle)
 
 
 def get_quote():
     """A quote and a person who said it"""
-    fpath = os.path.join(csq.BASE_DIR, 'quotes.txt')
+    fpath = os.path.join(csq.__pkginfo__.BASE_DIR, 'quotes.txt')
     with io.open(fpath, encoding='utf-8') as fhandle:
-        all_quotes = json.load(fhandle)
-        exploded = [
-            (quote, person)
-            for person in all_quotes
-            for quote in all_quotes[person]
-        ]
-        quote, person = random.choice(exploded)
+        all_quotes = explode_quote_set(load_quote_set(fhandle))
+        quote, person = random.choice(all_quotes)
         return quote, person
