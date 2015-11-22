@@ -14,6 +14,7 @@ from __future__ import print_function
 
 import csq
 import docopt
+import csq.qformat
 
 
 def main(args=None):

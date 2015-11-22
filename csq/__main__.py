@@ -1,5 +1,6 @@
-import sys
+import csq
 import csq.cli
+import sys
 
 
 def main(args=None):

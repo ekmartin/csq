@@ -1,4 +1,4 @@
-import csq.__pkginfo__ as pkginfo
+import csq
 import setuptools
 import distutils.core
 
@@ -21,7 +21,7 @@ class PyTest(distutils.core.Command):
 
 setuptools.setup(
     name='csq',
-    version=pkginfo.VERSION,
+    version=csq.VERSION,
     author='Luke Murphy',
     author_email='lukewm@riseup.net',
     description='Computing quotes on the command line',

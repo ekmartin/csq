@@ -43,7 +43,7 @@ def load_quote_set(fhandle):
 
 def get_quote():
     """A quote and a person who said it"""
-    fpath = os.path.join(csq.__pkginfo__.BASE_DIR, 'quotes.txt')
+    fpath = os.path.join(csq.BASE_DIR, 'quotes.txt')
     with io.open(fpath, encoding='utf-8') as fhandle:
         all_quotes = explode_quote_set(load_quote_set(fhandle))
         quote, person = random.choice(all_quotes)
