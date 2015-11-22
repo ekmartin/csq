@@ -28,7 +28,10 @@ def get_quote():
     fpath = os.path.join(csq.BASE_DIR, 'quotes.txt')
     with io.open(fpath, encoding='utf-8') as fhandle:
         all_quotes = json.load(fhandle)
-        person = random.choice(list(all_quotes.keys()))
-        quote_selection = all_quotes[person]
-        quote = random.choice(quote_selection)
+        exploded = [
+            (quote, person)
+            for person in all_quotes
+            for quote in all_quotes[person]
+        ]
+        quote, person = random.choice(exploded)
         return quote, person
