@@ -1,3 +1,4 @@
+import io
 import os
 import csq
 import json
@@ -24,7 +25,8 @@ def format_quote(quote, person):
 
 def get_quote():
     """A quote and a person who said it"""
-    with open(os.path.join(csq.BASE_DIR, 'quotes.txt')) as fhandle:
+    fpath = os.path.join(csq.BASE_DIR, 'quotes.txt')
+    with io.open(fpath, encoding='utf-8') as fhandle:
         all_quotes = json.load(fhandle)
         person = random.choice(list(all_quotes.keys()))
         quote_selection = all_quotes[person]
