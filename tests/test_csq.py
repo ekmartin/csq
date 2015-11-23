@@ -1,5 +1,27 @@
+import os
+import io
 import csq.cli
 import subprocess
+import csq.qformat
+
+
+class TestCsqFormat:
+    def test_indent(self):
+        text = 'indent me'
+        expected_length = len(text) + 4
+        result = csq.qformat.indent(text)
+        assert len(result) == expected_length
+
+    def test_explode_quotes(self):
+        quote_set = {'a': [1, 2, 3], 'b': [4, 5]}
+        result = csq.qformat.explode_quote_set(quote_set)
+        assert result == [(1, 'a'), (2, 'a'), (3, 'a'), (4, 'b'), (5, 'b')]
+
+    def test_load_quotes(self):
+        fpath = os.path.join(csq.BASE_DIR, 'quotes.txt')
+        with io.open(fpath, encoding='utf-8') as fhandle:
+            result = csq.qformat.load_quote_set(fhandle)
+            assert isinstance(result, dict)
 
 
 class TestCsqCLI:
