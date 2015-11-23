@@ -3,6 +3,7 @@ import io
 import csq.cli
 import subprocess
 import csq.qformat
+import collections
 
 
 class TestCsqFormat:
@@ -13,7 +14,7 @@ class TestCsqFormat:
         assert len(result) == expected_length
 
     def test_explode_quotes(self):
-        quote_set = {'a': [1, 2, 3], 'b': [4, 5]}
+        quote_set = collections.OrderedDict((('a', [1, 2, 3]), ('b', [4, 5])))
         result = csq.qformat.explode_quote_set(quote_set)
         assert result == [(1, 'a'), (2, 'a'), (3, 'a'), (4, 'b'), (5, 'b')]
 
