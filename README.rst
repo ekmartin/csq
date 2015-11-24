@@ -18,7 +18,7 @@ If you're feeling bereft of inspiration, hook this tiny CLI tool into
 your work flow and start feeling smarter instantly! Over 30 amazing
 humans in computing with ~1000 quotes.
 
-.. figure:: https://i.imgur.com/tZ77msA.gif
+.. figure:: https://i.imgur.com/lEwzO8o.gif
    :alt: GIF
 
 Installation
