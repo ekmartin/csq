@@ -1015,5 +1015,8 @@
         "At CERN there was a credo meant to avoid unnecessary labors, it said that when acquiring new technology: Buy, Don't Build. There were several commercial hypertext editors and I thought we could just add some internet code, so that the hypertext documents could then be sent over the internet. I thought the companies engaged in the then fringe field of hypertext would immediately grasp the possibilities of the web. Unfortunately, their reaction was quite the opposite... it seemed that explaining the vision of the web was exceedingly difficult without a web browser in hand, people had to be able to grasp the web in full, which meant imagining a whole world populated with websites and browsers. It was a lot to ask. Despite the buy don't build credo I came to the conclusion that I was going to have to create the web on my own.",
         "In an extreme view, the world can be seen as only connections, nothing else. We think of a dictionary as the repository of meaning, but it defines words only in terms of other words. I liked the idea that a piece of information is really defined only by what it's related to, and how it's related. There really is little else to meaning. The structure is everything. There are billions of neurons in our brains, but what are neurons? Just cells. The brain has no knowledge until connections are made between neurons. All that we know, all that we are, comes from the way our neurons are connected.",
         "The trick... is to make sure that each limited mechanical part of the Web, each application, is within itself composed of simple parts that will never get too powerful."
+    ],
+    "Toby Radloff": [
+        "I consider myself a nerd."
     ]
 }

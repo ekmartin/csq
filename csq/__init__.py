@@ -8,7 +8,7 @@ HUMANS = [
     'Ada Lovelace', 'Ken Thompson', 'Niklaus Wirth', 'John von Neumann',
     'Dennis Ritchie', 'Brian Kernighan', 'Edsger W. Dijkstra', 'Larry Wall',
     'Linus Torvalds', 'John Backus', 'Richard Stallman', 'Bjarne Stroustrup',
-    'Hal Abelson', 'Bill Gates', 'Donald Norman', 'Grady Booch',
+    'Hal Abelson', 'Bill Gates', 'Donald Norman', 'Grady Booch', 'Toby Radloff',
     'Paul Graham', 'Richard Hamming', 'C. A. R. Hoare', 'Rasmus Lerdorf',
     'Gordon Moore', 'Larry Page', 'Bruce Schneier', 'Konrad Zuse', 'Alan Kay',
     'Douglas Crockford', 'Rob Pike', 'Douglas Engelbart', 'Martin Fowler',
