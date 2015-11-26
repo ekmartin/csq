@@ -1017,6 +1017,6 @@
         "The trick... is to make sure that each limited mechanical part of the Web, each application, is within itself composed of simple parts that will never get too powerful."
     ],
     "Toby Radloff": [
-        "I consider myself a nerd.",
+        "I consider myself a nerd."
     ]
 }
