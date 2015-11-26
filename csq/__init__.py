@@ -12,4 +12,5 @@ HUMANS = [
     'Paul Graham', 'Richard Hamming', 'C. A. R. Hoare', 'Rasmus Lerdorf',
     'Gordon Moore', 'Larry Page', 'Bruce Schneier', 'Konrad Zuse', 'Alan Kay',
     'Douglas Crockford', 'Rob Pike', 'Douglas Engelbart', 'Martin Fowler',
+    'Doug McIlroy'
 ]
