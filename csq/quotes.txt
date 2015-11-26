@@ -129,7 +129,8 @@
         "The most effective debugging tool is still careful thought, coupled with judiciously placed print statements.",
         "Everyone knows that debugging is twice as hard as writing a program in the first place. So if you're as clever as you can be when you write it, how will you ever debug it?",
         "Do what you think is interesting, do something that you think is fun and worthwhile, because otherwise you won't do it well anyway.",
-        "Advice to students: Leap in and try things. If you succeed, you can have enormous influence. If you fail, you have still learned something, and your next attempt is sure to be better for it. Advice to graduates: Do something you really enjoy doing. If it isn’t fun to get up in the morning and do your job or your school program, you’re in the wrong field."
+        "Advice to students: Leap in and try things. If you succeed, you can have enormous influence. If you fail, you have still learned something, and your next attempt is sure to be better for it. Advice to graduates: Do something you really enjoy doing. If it isn’t fun to get up in the morning and do your job or your school program, you’re in the wrong field.",
+        "There's that line from Newton about standing on the shoulders of giants. We're all standing on Dennis' shoulders."
     ],
     "Bruce Schneier": [
         "Anyone, from the most clueless amateur to the best cryptographer, can create an algorithm that he himself can't break.",
@@ -168,9 +169,7 @@
         "I think the Linux phenomenon is quite delightful, because it draws so strongly on the basis that Unix provided. Linux seems to be the among the healthiest of the direct Unix derivatives, though there are also the various BSD systems as well as the more official offerings from the workstation and mainframe manufacturers.",
         "My own computational world is a strange blend of Plan 9, Windows, and Inferno. I very much admire Linux's growth and vigor. Occasionally, people ask me much the same question [about Linux], but posed in a way that seems to expect an answer that shows jealousy or irritation about Linux vs. Unix as delivered and branded by traditional companies. Not at all; I think of both as the continuation of ideas that were started by Ken and me and many others, many years ago.",
         "I think one of the interesting things about the Linux phenomenon is that [Linus] has been able to keep some kind of control over such an amazingly extended development environment. I’m certainly glad that I didn’t have to develop C in public, because you get more suggestions than you really want. Being in this nice, small group, you can control that sort of thing. I honestly don’t know the dynamics and the details of the Linux kernel project. However, one of the knocks on Linux is that it is undisciplined. But I think probably the fairer observation is that it is amazingly disciplined, compared to what you would expect, given the nature of the endeavor.",
-        "I don’t really distinguish between Linux and things that are more or less direct descendants of Unix. I think they’re all the same at some level. Often, people ask me, \"Do you feel jealous about Linux being the big thing.\" And the answer is no, for the same reason. I think they’re the same.",
-        "Ritchie and Thompson made an amazing team; and they played Unix and C like a fine instrument. They sometimes divided up work almost on a subroutine-by-subroutine basis with such rapport that it almost seemed like the work of a single person. In fact, as Dennis has recounted, they once got their signals crossed and both wrote the same subroutine. The two versions did not merely compute the same result, they did it with identical source code! Their output was prodigious. Once I counted how much production code they had written in the preceding year − 100,000 lines! Prodigious didn’t mean slapdash. Ken and Dennis have unerring design sense. They write code that works, code that can be read, code that can evolve.",
-        "There's that line from Newton about standing on the shoulders of giants. We're all standing on Dennis' shoulders."
+        "I don’t really distinguish between Linux and things that are more or less direct descendants of Unix. I think they’re all the same at some level. Often, people ask me, \"Do you feel jealous about Linux being the big thing.\" And the answer is no, for the same reason. I think they’re the same."
     ],
     "Donald Knuth": [
         "Beware of bugs in the above code; I have only proved it correct, not tried it.",
@@ -1018,5 +1017,8 @@
     ],
     "Toby Radloff": [
         "I consider myself a nerd."
+    ],
+    "Doug McIlroy": [
+        "Ritchie and Thompson made an amazing team; and they played Unix and C like a fine instrument. They sometimes divided up work almost on a subroutine-by-subroutine basis with such rapport that it almost seemed like the work of a single person. In fact, as Dennis has recounted, they once got their signals crossed and both wrote the same subroutine. The two versions did not merely compute the same result, they did it with identical source code! Their output was prodigious. Once I counted how much production code they had written in the preceding year − 100,000 lines! Prodigious didn’t mean slapdash. Ken and Dennis have unerring design sense. They write code that works, code that can be read, code that can evolve."
     ]
 }
